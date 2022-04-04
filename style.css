@@ -4667,6 +4667,7 @@ body .td-make-full .sub-menu {
 @media (min-width: 768px) and (max-width: 1023px) {
   .td-header-sp-rec {
     width: 508px;
+      
   }
 }
 @media (max-width: 767px) {
@@ -4674,13 +4675,16 @@ body .td-make-full .sub-menu {
     margin-bottom: 0;
     margin-top: 0;
     width: 100%;
-    float: none;
+    float: left;
+    display:blok;
     min-height: 0 !important;
   }
 }
 @media (min-width: 1024px) and (max-height: 768px) {
   .td-header-sp-rec {
     margin-right: 7px;
+     width: 100%;
+  
   }
 }
 .td-header-sp-rec .td-header-ad-wrap {
